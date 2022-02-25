@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: 9999;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.bolt_icon_setting {
+  font-size: 50px;
+  float: left;
+}
+
+.bolt_head_menu {
+  width: 90px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 14px 12px;
+  float: right;
+  background-color: #74cfae;
+  color: #fff;
+}
+
+.title {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.bolt_theme_title {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bolt_theme_content {
+  font-size: 30px;
+  color: #c0c0c0;
+  text-align: center;
+}
+
+.section {
+  width: 100%;
+  background-color: #74cfae;
+  padding-top: 50px;
+}
+
+.main_section_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.main_section_content {
+  width: 50%;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.main_section_img {
+  margin-right: 150px;
+}
+
+.main_section_title {
+  font-size: 24px;
+}
+
+.main_section_text {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.article {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.article_title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.content_imgs {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content_img_link {
+  margin-left: 100px;
+  margin-bottom: 80px;
+  opacity: 0.7;
+}
+
+.content_img_link:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+/*
+.content_img {
+  margin-left: 100px;
+  margin-bottom: 80px;
+}*/
+
+.content_img_link:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.article_text {
+  font-size: 20px;
+  margin-right: 90px;
+}
+
+.link_button {
+  width: 150px;
+  background-color: #74cfae;
+  color: #f2f2f2;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 14Px 20px;
+}
+
+.link_button:hover, .bolt_head_menu:hover {
+  color: #333;
+  transition: 0.3s;
+}
+
+.link_text {
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.skill_section {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background-color: #4e4e4e;
+}
+
+.skill-section_title {
+  color: #f2f2f2;
+  font-size: 24px;
+  text-align: center;
+}
+
+.skill-content_imgs {
+  width: 100%;
+  text-align: center;
+}
+
+.img-text_inline-block {
+  display: inline-block;
+}
+
+.skill-content_img {
+  margin-left: 180px;
+}
+
+.skill-content_img:first-child {
+  margin-left: 0;
+}
+
+.skill_name {
+  color: #f2f2f2;
+  font-size: 16px;
+}
+
+.SNS_nav {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.SNS-nav-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SNS-icon_setting {
+  font-size: 50px;
+  color: #74cfae;
+}
+
+.SNS_link {
+  width: 185px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.SNS_link:hover {
+  background-color: #fff;
+  width: 185px;
+  line-height: 100px;
+  transition: 0.3s;
+}
+
+.footer {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: #74cfae;
+}
+
+.footer_text {
+  color: #fff;
+  text-align: right;
+}
