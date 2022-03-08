@@ -1,4 +1,11 @@
 @charset "UTF-8";
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
 
 .clearfix::after {
   display: block;
@@ -37,6 +44,11 @@
   float: right;
   background-color: #74cfae;
   color: #fff;
+  transition: 0.3s;
+}
+
+.main {
+  padding-top: 75px;
 }
 
 .title {
@@ -115,6 +127,7 @@
   margin-left: 100px;
   margin-bottom: 80px;
   opacity: 0.7;
+  transition: 0.3s;
 }
 
 .content_img_link:hover {
@@ -138,6 +151,7 @@
 
 .article_text {
   font-size: 20px;
+  text-align: center;
   margin-right: 90px;
 }
 
@@ -148,6 +162,7 @@
   text-decoration: none;
   box-sizing: border-box;
   padding: 14Px 20px;
+  transition: 0.3s;
 }
 
 .link_button:hover, .bolt_head_menu:hover {
@@ -216,14 +231,15 @@
 
 .SNS_link {
   width: 185px;
-  line-height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
+  transition: 0.3s;
 }
 
 .SNS_link:hover {
   background-color: #fff;
   width: 185px;
-  line-height: 100px;
   transition: 0.3s;
 }
 
