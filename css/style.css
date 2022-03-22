@@ -35,8 +35,6 @@ h2 {
 }
 
 .bolt_head_menu {
-  width: 90px;
-  height: 50px;
   text-align: center;
   text-decoration: none;
   box-sizing: border-box;
@@ -155,21 +153,22 @@ h2 {
 .text-wrapper {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   margin-top: 90px;
 }
 
 .article_text {
+  width: 570px;
   font-size: 20px;
   text-align: center;
-  margin-right:90px
 }
 
 .link_button {
-  width: 150px;
   background-color: #74cfae;
   color: #f2f2f2;
   text-decoration: none;
   box-sizing: border-box;
+  margin-left: 90px;
   padding: 14Px 20px;
   transition: 0.3s;
 }
@@ -201,6 +200,7 @@ h2 {
 .skill-content_imgs {
   width: 100%;
   text-align: center;
+  margin-top: 50px;
 }
 
 .img-text_inline-block {
@@ -218,6 +218,7 @@ h2 {
 .skill_name {
   color: #f2f2f2;
   font-size: 16px;
+  margin-top: 20px;
 }
 
 .SNS_nav {
