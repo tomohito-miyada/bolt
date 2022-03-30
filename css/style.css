@@ -409,6 +409,10 @@ h2 {
     font-size: 80px;
   }
 
+  .main_section_text {
+    width: 100%;
+  }
+
   .SNS_nav {
     padding-top: 50px;
   }
