@@ -262,6 +262,11 @@ h2 {
 }
 */
 @media screen and (max-width: 1199px){
+
+  .content_img {
+    vertical-align: bottom;
+  }
+
   .inner {
     width: 97%;
     margin: 0 auto;
@@ -415,6 +420,7 @@ h2 {
 
   .SNS_nav {
     padding-top: 50px;
+    padding-bottom: 50px;
   }
   
   .SNS-flex {
